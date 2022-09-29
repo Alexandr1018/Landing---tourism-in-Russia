@@ -19,7 +19,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 410px) {
   .lead__image_over {
     top: 29px;
     left: 7.5px;

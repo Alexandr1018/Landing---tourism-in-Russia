@@ -21,6 +21,13 @@
   }
 }
 
+@media (max-width: 380px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 12px;
+  }
+}
+
 @media (max-width: 320px) {
   .photo-grid {
     padding-top: 62px;
