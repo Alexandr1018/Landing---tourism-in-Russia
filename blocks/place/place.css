@@ -1,0 +1,39 @@
+.place {
+  padding-bottom: 80px;
+  display: grid;
+  grid-template-columns: 460px auto;
+  row-gap: 48px;
+  column-gap: 40px;
+  margin: auto;
+}
+
+.place:last-child {
+  padding-top: 92px;
+}
+
+@media (max-width: 1024px) {
+  .place {
+    grid-template-columns: 440px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .place {
+    -bottom: 73px;
+    grid-template-columns: 340px auto;
+  }
+  .place:last-child {
+    padding-top: 90px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place {
+    padding-bottom: 50px;
+    grid-template-columns: 288px;
+    gap: 32px;
+  }
+  .place:last-child {
+    padding-top: 62px;
+  }
+}

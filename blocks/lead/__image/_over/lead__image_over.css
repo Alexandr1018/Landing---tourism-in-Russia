@@ -1,0 +1,27 @@
+.lead__image_over {
+  position: absolute;
+  top: 90px;
+  left: 23px;
+  max-width: 95%;
+}
+
+@media (max-width: 1024px) {
+  .lead__image_over {
+    top: 85px;
+    left: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead__image_over {
+    top: 70px;
+    left: 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__image_over {
+    top: 29px;
+    left: 7.5px;
+  }
+}
