@@ -6,7 +6,7 @@
   text-align: left;
 }
 
-@media (max-width: calc(370px + 20px)) {
+@media (max-width: 390px) {
   .intro__title {
     font-size: 32px;
   }

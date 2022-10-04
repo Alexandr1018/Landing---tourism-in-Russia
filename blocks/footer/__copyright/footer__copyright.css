@@ -5,14 +5,14 @@
 
 }
 
-@media (max-width: calc(700px + 20px)) {
+@media (max-width: 720px) {
   .footer__copyright {
     font-size: 20px;
     line-height: 14px;
   }
 }
 
-@media (max-width: calc(320px + 20px)) {
+@media (max-width: 340px) {
   .footer__copyright {
     font-size: 14px;
   }

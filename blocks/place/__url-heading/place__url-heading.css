@@ -8,7 +8,7 @@
 }
 
 
-@media (max-width: calc(768px + 20px)) {
+@media (max-width: 788px) {
   .place__url-heading {
     line-height: 12px;
   }

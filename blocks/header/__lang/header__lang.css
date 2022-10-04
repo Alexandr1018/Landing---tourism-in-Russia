@@ -8,9 +8,8 @@
   list-style-type: none;
 }
 
-@media (max-width: calc(400px + 20px)) {
+@media (max-width: 420px) {
   .header__lang {
-    gap: 18px;
     padding-bottom: 7px;
     padding-right: 3px;
   }

@@ -6,20 +6,20 @@
   padding-top: 92px;
 }
 
-@media (max-width: calc(1024px + 20px)) {
+@media (max-width: 1044px) {
   .places {
     max-width: 928px;
   }
 }
 
-@media (max-width: calc(768px + 20px)) {
+@media (max-width: 788px) {
   .places {
     max-width: 720px;
     padding-top: 88px;
   }
 }
 
-@media (max-width: calc(320px + 20px)) {
+@media (max-width: 340px) {
   .places {
     max-width: 320px;
     padding-top: 59px;

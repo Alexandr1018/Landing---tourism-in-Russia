@@ -6,13 +6,13 @@
   margin-top: 5px;
 }
 
-@media (max-width: calc(768px + 20px)) {
+@media (max-width: 788px) {
   .lead__caption {
     margin-left: 24px;
   }
 }
 
-@media (max-width: calc(320px + 20px)) {
+@media (max-width: 340px) {
   .lead__caption {
     margin-left: 16px;
   }

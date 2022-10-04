@@ -5,7 +5,7 @@
   text-decoration-line: none;
 }
 
-@media (max-width: calc(400px + 20px)) {
+@media (max-width: 420px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;

@@ -6,13 +6,13 @@
   margin-left: 147px;
 }
 
-@media (max-width: calc(1024px + 20px)) {
+@media (max-width: 1044px) {
   .intro {
     margin-left: 48px;
   }
 }
 
-@media (max-width: calc(768px + 20px)) {
+@media (max-width: 788px) {
   .intro {
     max-width: 720px;
     margin: 0 24px 0;
@@ -20,7 +20,7 @@
   }
 }
 
-@media (max-width: calc(320px + 20px)) {
+@media (max-width: 340px) {
   .intro {
     max-width: 288px;
     padding-top: 64px;

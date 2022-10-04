@@ -6,7 +6,7 @@
   margin: 0 auto;
 }
 
-@media (max-width: calc(1024px + 20px)) {
+@media (max-width: 1044px) {
   .lead {
     padding-top: 48px;
     padding-left: 48px;
@@ -14,7 +14,7 @@
   }
 }
 
-@media (max-width: calc(768px + 20px)) {
+@media (max-width: 788px) {
   .lead {
     padding-left: 0;
     padding-right: 0;
