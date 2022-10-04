@@ -1,17 +1,17 @@
 .header__lang {
   display: flex;
   gap: 18px;
-  align-items: flex-end;
   padding: 0;
-}
-
-.header__lang li {
+  margin: 0;
+  align-items: flex-end;
+  padding-bottom: 5px;
   list-style-type: none;
 }
 
-@media (max-width: 400px) {
+@media (max-width: calc(400px + 20px)) {
   .header__lang {
-    gap: 16px;
-    padding-bottom: 2px;
+    gap: 18px;
+    padding-bottom: 7px;
+    padding-right: 3px;
   }
 }

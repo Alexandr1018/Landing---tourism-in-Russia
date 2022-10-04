@@ -1,0 +1,14 @@
+.breaker {
+}
+
+@media (max-width: calc(768px + 20px)) {
+  .breaker::after {
+    content: "\00a0\00a0\00a0";
+  }
+}
+
+@media (max-width: calc(600px + 20px)) {
+  .breaker::after {
+    content: "";
+  }
+}

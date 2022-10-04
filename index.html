@@ -10,15 +10,15 @@
     <header class="header">
       <img class="header__logo" src="./images/__logo.svg" alt="Логотип">
       <ul class="header__lang">
-        <li><a href="#" class="header__lang-link header__lang-link_active">RU</a></li>
-        <li><a href="#" class="header__lang-link">EN</a></li>
+        <li><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
+        <li><a href="#" class="header__lang-link">En</a></li>
       </ul>
     </header>
     <main>
       <section class="lead">
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
-        <span class="lead__subtitle"
-          >Настоящая страна не в выпусках новостей, а здесь</span
+        <p class="lead__subtitle"
+          >Настоящая страна не в выпусках новостей, а здесь</p
         >
         <figure class="lead__figure">
           <img
@@ -41,74 +41,69 @@
           проехала 20 тысяч километров по родной стране. Мы выбрали и описали
           некоторые интересные места, достойные вашего отпуска.
         </p>
-        <dl class="intro__list">
-          <dt>Часовых поясов&nbsp;</dt>
-          <dd>11</dd>
-          <dt>Объектов природного наследия ЮНЕСКО&nbsp;</dt>
-          <dd>12</dd>
-          <dt>Объектов культурного наследия ЮНЕСКО&nbsp;</dt>
-          <dd>16</dd>
-          <dt>Природных заповедников&nbsp;</dt>
-          <dd>105</dd>
-          <dt>Аэропортов&nbsp;</dt>
-          <dd>241</dd>
-        </dl>
+        <ul class="intro__list">
+          <li><strong>Часовых поясов</strong> 11</li>
+          <li><strong>Объектов природного наследия ЮНЕСКО</strong> 12</li>
+          <li><strong>Объектов культурного наследия ЮНЕСКО</strong> 16</li>
+          <li><strong>Природных заповедников</strong> 105</li>
+          <li><strong>Аэропортов</strong> 241</li>
+        </ul>
       </section>
-      <div class="photo-grid">
+      <section class="photo-grid">
         <img
           src="./images/__item-11.png"
-          alt="Фото №1"
+          alt="Путешествие на поезде, вид из окна, вдоль моря"
           class="photo-grid__item">
         <img
           src="./images/__item-10.png"
-          alt="Фото №2"
+          alt="Путешествие на самолете, вид из иллюминатора, снежные вершины гор"
           class="photo-grid__item">
         <img
           src="./images/__item-9.png"
-          alt="Фото №3"
+          alt="Путешествие - встреча рассвета на лугу"
           class="photo-grid__item">
         <img
           src="./images/__item-8.png"
-          alt="Фото №4"
+          alt="Путешествие в тайгу"
           class="photo-grid__item">
         <img
           src="./images/__item-7.png"
-          alt="Фото №5"
+          alt="Путешествие на машине по замерзшему озеру"
           class="photo-grid__item">
         <img
           src="./images/__item-6.png"
-          alt="Фото №6"
+          alt="Путешествие - прогулка вдоль берега"
           class="photo-grid__item">
         <img
           src="./images/__item-5.png"
-          alt="Фото №7"
+          alt="Путешествие - вид на заснеженные вершшины гор"
           class="photo-grid__item">
         <img
           src="./images/__item-4.png"
-          alt="Фото №8"
+          alt="Путешествие - местные достопримечательности (волонорезы)"
           class="photo-grid__item">
         <img
           src="./images/__item-3.png"
-          alt="Фото №9"
+          alt="Путешествие - вид на каньон с высоты птичьего полета"
           class="photo-grid__item">
         <img
           src="./images/__item-2.png"
-          alt="Фото №10"
+          alt="Путешествие в тундру с видом на горы"
           class="photo-grid__item">
         <img
           src="./images/__item-1.png"
-          alt="Фото №11"
+          alt="Путешествие на фьорды с высоты птичьего полета"
           class="photo-grid__item">
         <img
           src="./images/__item.png"
-          alt="Фото №12"
+          alt="Птушествие - утро в горам в густом тумане"
           class="photo-grid__item">
-      </div>
+      </section>
       <section class="places">
-        <div class="place">
-          <h2 class="place__title">Куршская коса</h2>
-          <p class="place__website">
-            <span class="place__url-heading">URL</span>
+        <article class="place">
+          <h2 class="place__title">Куршская<span class="breaker"></span> коса</h2>
+          <div class="place__website">
+            <p class="place__url-heading">URL</p>
             <a
               href="http://park-kosa.ru"
               class="place__link transition-link"
@@ -116,7 +111,7 @@
               rel="noopener noreferrer"
               >park-kosa.ru</a
             >
-          </p>
+          </div>
           <img
             src="./images/place/image-1.jpg"
             alt="Пейзаж Курсшской косы"
@@ -129,19 +124,19 @@
               природная зона на краю российского анклава.
             </p>
             <p class="place__paragraph">
-              На этом Калининградская область не заканчивается. Для
-              путешественника и исследователя там же по соседству — самая
+              На этом Калининградская область не заканчивается. Для&nbsp;путешественника
+              и исследователя там же по соседству — самая
               западная точка России, Балтийская коса, — и немецкое наследие
               россыпи небольших приморских городов. Атмосфера здешних мест
               исключает суету, окуная в спокойствие природы и запах стального,
               прохладного моря.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
-          <p class="place__website">
-            <span class="place__url-heading">URL</span>
+          <div class="place__website">
+            <p class="place__url-heading">URL</p>
             <a
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
               class="place__link transition-link"
@@ -149,7 +144,7 @@
               rel="noopener noreferrer"
               >National Geographic</a
             >
-          </p>
+          </div>
           <img
             src="./images/place/image-2.jpg"
             alt="Пейзаж Кольского полуострова"
@@ -170,11 +165,11 @@
               в Мурманск.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
-          <p class="place__website">
-            <span class="place__url-heading">URL</span>
+          <div class="place__website">
+            <p class="place__url-heading">URL</p>
             <a
               href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
               class="place__link transition-link"
@@ -182,7 +177,7 @@
               rel="noopener noreferrer"
               >Facebook</a
             >
-          </p>
+          </div>
           <img
             src="./images/place/image-3.jpg"
             alt="Пейзаж Алтая"
@@ -202,11 +197,11 @@
               косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
-          <p class="place__website">
-            <span class="place__url-heading">URL</span>
+          <div class="place__website">
+            <p class="place__url-heading">URL</p>
             <a
               href="https://vk.com/baikalmile"
               class="place__link transition-link"
@@ -214,7 +209,7 @@
               rel="noopener noreferrer"
               >https://vk.com/baikalmile</a
             >
-          </p>
+          </div>
           <img
             src="./images/place/image-4.jpg"
             alt="Пейзаж Байкала зимой"
@@ -227,17 +222,17 @@
             </p>
             <p class="place__paragraph">
               Конечно, это всё так. Но Байкал ещё идеальное место
-              для соревнований по скийорингу. Это такой вид спорта, когда лыжник
+              для соревнований по скийорингу. Это такой вид спорта, когда лыжник
               привязывает себя к мотоциклу, и тандем старается развить как можно
               бóльшую скорость на льду. В марте 2019 года на фестивале
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
-          <p class="place__website">
-            <span class="place__url-heading">URL</span>
+          <div class="place__website">
+            <p class="place__url-heading">URL</p>
             <a
               href="http://vodlozero.ru"
               class="place__link transition-link"
@@ -245,9 +240,9 @@
               rel="noopener noreferrer"
               >http://vodlozero.ru/</a
             >
-          </p>
+          </div>
           <img
-            src="./images/place/image-1.jpg"
+            src="./images/place/image-5.jpg"
             alt="Пейзаж Карелии"
             class="place__image">
           <div>
@@ -263,7 +258,7 @@
               медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
       </section>
       <section class="cover">
         <a
@@ -272,7 +267,7 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
           <p class="cover__subtitle">
             По мотивам учебной темы о Транссибе — путешествие от столицы до
             Байкала на электричках.
@@ -283,7 +278,7 @@
     <footer class="footer">
       <nav>
         <ul class="footer__nav">
-          <li class="footer__item footer__item_inline">
+          <li class="footer__item">
             <a
               href="https://yandex.ru/maps"
               class="footer__link transition-link"
@@ -292,7 +287,7 @@
               >Карты</a
             >
           </li>
-          <li class="footer__item footer__item_inline">
+          <li class="footer__item">
             <a
               href="https://yandex.ru/pogoda"
               class="footer__link transition-link"
@@ -301,7 +296,7 @@
               >Погода</a
             >
           </li>
-          <li class="footer__item footer__item_inline">
+          <li class="footer__item">
             <a
               href="https://rasp.yandex.ru"
               class="footer__link transition-link"
@@ -310,7 +305,7 @@
               >Расписание</a
             >
           </li>
-          <li class="footer__item footer__item_inline">
+          <li class="footer__item">
             <a
               href="https://calendar.yandex.ru"
               class="footer__link transition-link"
@@ -319,7 +314,7 @@
               >Календарь</a
             >
           </li>
-          <li class="footer__item footer__item_inline">
+          <li class="footer__item">
             <a
               href="https://travel.yandex.ru"
               class="footer__link transition-link"

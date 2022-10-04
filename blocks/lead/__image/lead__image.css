@@ -4,13 +4,13 @@
   margin: 64px 0 0;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: calc(1024px + 20px)) {
   .lead__image {
     margin-top: 56px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: calc(320px + 20px)) {
   .lead__image {
     margin-top: 40px;
   }

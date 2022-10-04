@@ -3,13 +3,6 @@
   line-height: 1.5;
   margin-top: 33px;
   margin-bottom: 0;
-}
-
-.intro__list dt {
-  float: left;
-  font-weight: 700;
-}
-
-.intro__list dd {
-  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }

@@ -4,30 +4,32 @@
   grid-template-columns: 460px auto;
   row-gap: 48px;
   column-gap: 40px;
-  margin: auto;
+  margin: 0;
 }
 
 .place:last-child {
   padding-bottom: 92px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: calc(1024px + 20px)) {
   .place {
     grid-template-columns: 440px auto;
+    column-gap: 32px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: calc(768px + 20px)) {
   .place {
-    padding-bottom: 73px;
+    padding-bottom: 71px;
     grid-template-columns: 340px auto;
+    column-gap: 28px;
   }
   .place:last-child {
     padding-bottom: 90px;
   }
 }
 
-@media (max-width: 660px) {
+@media (max-width: calc(660px + 20px)) {
   .place {
     grid-template-columns: 300px auto;
     column-gap: 18px;
@@ -37,26 +39,20 @@
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: calc(560px + 20px)) {
   .place {
     padding-bottom: 50px;
-    grid-template-columns: 1fr /* minmax(min-content, max-content) */;
+    grid-template-columns: 1fr;
     gap: 32px;
-    /* justify-content: center; */
-    /* justify-items: baseline; */
-  }
-  .place:last-child {
-    padding-bottom: 62px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: calc(320px + 20px)) {
   .place {
-    padding-bottom: 50px;
-    grid-template-columns: 288px;
-    gap: 32px;
-  }
-  .place:last-child {
-    padding-bottom: 62px;
+    /* grid-template-columns: 288px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
   }
 }

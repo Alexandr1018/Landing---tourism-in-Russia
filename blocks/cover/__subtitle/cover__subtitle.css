@@ -2,16 +2,16 @@
   display: block;
   max-width: 360px;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 22px;
   text-align: center;
   margin: 32px auto 0;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: calc(320px + 20px)) {
   .cover__subtitle {
     max-width: 288px;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 16px;
     margin-top: 16px;
   }
 }

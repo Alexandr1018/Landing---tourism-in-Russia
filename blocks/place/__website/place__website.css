@@ -2,3 +2,11 @@
   margin: 0;
   align-self: end;
 }
+
+@media (max-width: calc(320px + 20px)) {
+  .place__website {
+    margin-left: 16px;
+    align-self: flex-start;
+    margin-top: 27px;
+  }
+}
